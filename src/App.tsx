@@ -3,7 +3,7 @@ import {
   Calendar as BigCalendar,
   momentLocalizer,
   Views,
-  stringOrDate,
+  // stringOrDate,
 } from "react-big-calendar";
 import withDragAndDrop, {
   EventInteractionArgs,

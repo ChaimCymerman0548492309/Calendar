@@ -5,5 +5,8 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['framer-motion']
+  } ,
+   resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx']
   }
 })
